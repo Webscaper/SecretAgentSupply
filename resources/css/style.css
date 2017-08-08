@@ -1,0 +1,94 @@
+html {
+  font-size: 18px;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  padding: 0.66rem 0 0.66rem 0.5em;
+}
+
+header img {
+  height: 1.5em;
+  padding-right: 15px;
+}
+
+.jumbotron {
+  height: 25rem;
+  background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.headline {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  width: 20rem;
+  height: auto;
+  position: relative;
+  top: 9rem;
+  padding: 2rem 3rem;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  display: block;
+  margin-top: 0.25rem;
+}
+
+nav {
+  background-color: firebrick;
+  padding: 0.75rem 0;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 10rem;
+  border: solid 4px black;
+  margin-top: 3rem;
+  padding: 2rem 0;
+  overflow: hidden;
+}
+
+.product-image img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.desc {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
