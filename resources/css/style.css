@@ -2,14 +2,14 @@ html {
   font-size: 18px;
 }
 
-header {
-  background-color: black;
+a {
+  text-decoration: none;
   color: white;
 }
 
-.container {
-  max-width: 960px;
-  margin: 0 auto;
+header {
+  background-color: black;
+  color: white;
 }
 
 header .container {
@@ -21,6 +21,15 @@ header .container {
 header img {
   height: 1.5em;
   padding-right: 15px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.smallmenu {
+  display: none;
 }
 
 .jumbotron {
@@ -67,28 +76,93 @@ nav ul {
   align-items: center;
 }
 
-.product-image {
+.product-pen, .product-watch, .product-glasses {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 30%;
-  height: 10rem;
   border: solid 4px black;
   margin-top: 3rem;
-  padding: 2rem 0;
   overflow: hidden;
 }
 
-.product-image img {
+.scale {
+  height: 9rem;
+  width: 40%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scale img {
   height: auto;
   max-width: 100%;
   display: block;
+  padding: 2rem 0;
 }
 
 .desc {
   display: block;
+  width: 95%;
   background-color: black;
   color: white;
   text-align: center;
   padding: 0.5rem;
+}
+
+.lower {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.info {
+  display: flex;
+  display: block;
+  width: 35%;
+  overflow: hidden;
+}
+
+.detail {
+  display: block;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 1rem 2em;
+}
+
+footer {
+  height: 5rem;
+  background-color: black;
+  color: white;
+}
+
+.copyright {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+/* Media Query Start */
+
+@media only screen and (max-width:1024px){
+  .product-pen, .product-watch {
+    width: 47%;
+  }
+  .product-glasses {
+    display: none;
+  }
+
+  .fullmenu {
+    display: none;
+  }
+
+  .smallmenu {
+    display:block;
+    text-align: center;
+  }
 }

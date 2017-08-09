@@ -29,42 +29,67 @@
 
     <!-- Navigation content -->
     <nav>
-      <ul class="container">
-        <li>Eyewear</li>
-        <li>Apparel</li>
-        <li>Gadgets</li>
-        <li>Vehicles</li>
-        <li>Classes</li>
-        <li>Contact</li>
+      <!-- Standard width Navigation -->
+      <ul class="container fullmenu">
+        <li><a href="#">Eyewear</a></li>
+        <li><a href="#">Apparel</a></li>
+        <li><a href="#">Gadgets</a></li>
+        <li><a href="#">Vehicles</a></li>
+        <li><a href="#">Classes</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <!-- < 1025px width menu -->
+      <ul class="container smallmenu">
+        <li><a href="#">Menu</a></li>
       </ul>
     </nav>
 
     <!-- Product grid -->
     <div class="container">
       <div class="products">
-        <div class="product-image">
-          <img src="resources/images/pen.png" alt="picture of a pen">
+        <div class="product-pen">
+          <div class="scale">
+            <img src="resources/images/pen.png" alt="picture of a pen">
+          </div>
           <span class="desc">Exploding Pen</span>
         </div>
-        <div class="product-image">
-          <img src="resources/images/watch.png" alt="picture of a silver watch">
+        <div class="product-watch">
+          <div class="scale">
+            <img src="resources/images/watch.png" alt="picture of a silver watch">
+          </div>
           <span class="desc">Cellular Watch</span>
         </div>
-        <div class="product-image">
-          <img src="resources/images/glasses.png" alt="picture of black sunglasses">
+        <div class="product-glasses">
+          <div class="scale">
+            <img src="resources/images/glasses.png" alt="picture of black sunglasses">
+          </div>
           <span class="desc">Thermal Glasses</span>
         </div>
       </div>
     </div>
 
+    <!-- Location and Hours banner -->
+    <div class="container">
+      <div class="lower">
+        <div class="info">
+          <span class="detail">Location</span>
+          <span>-47.346436, 84.32354</span>
+        </div>
+        <div class="info">
+          <span class="detail">Hours</span>
+          <span>0800 - 1800</span>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer content -->
     <footer>
+      <div class="container">
+        <div class="copyright">
+          <h4>Copyright Secret Agent Supply Inc.</h4>
+        </div>
+      </div>
     </footer>
-
-
-
-
 
   </body>
 </html>
