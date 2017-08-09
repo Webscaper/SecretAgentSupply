@@ -165,4 +165,40 @@ footer {
     display:block;
     text-align: center;
   }
+
+  .headline h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 470px){
+  header span {
+    display: none;
+  }
+
+  header .container {
+    justify-content: center;
+  }
+
+  header img {
+    padding: 0;
+  }
+
+  .headline {
+    top: 10rem;
+    padding: 1rem 2rem;
+    height: 3rem;
+  }
+
+.headline h1 {
+  font-size: 1rem;
+}
+
+.headline h4 {
+  font-size: 0.77rem;
+}
+
+  .jumbotron {
+    height: 15rem;
+  }
 }
