@@ -201,4 +201,29 @@ footer {
   .jumbotron {
     height: 15rem;
   }
+
+  .product-watch {
+    display: none;
+  }
+  .product-pen {
+    width: 90%;
+  }
+
+  .products {
+    justify-content: center;
+  }
+
+  .lower {
+    flex-direction: column;
+  }
+
+  .info {
+    width: 90%;
+    margin-top: 0.5rem;
+  }
+
+  .copyright {
+    justify-content: center;
+  }
+
 }
